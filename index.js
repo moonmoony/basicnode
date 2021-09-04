@@ -20,7 +20,7 @@ mongoose.connect('mongodb+srv://moonmoony:123456789--@basicnode.xgtj5.mongodb.ne
     .then(() => console.log('*** MongoDB Connected ***'))
     .catch(err => console.log(err))
 
-app.get('/', (req, res) => res.send('Hi! Moon Moony!'))
+app.get('/', (req, res) => res.send('Hi! Moon Moony! What is up to you?'))
 
 /** 회원가입을 위한 라우트 */
 app.post('/register', (req, res) => {
